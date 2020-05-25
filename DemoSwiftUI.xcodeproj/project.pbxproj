@@ -13,6 +13,7 @@
 		D0F02B4D247AF3B000952C2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F02B4C247AF3B000952C2E /* Assets.xcassets */; };
 		D0F02B50247AF3B000952C2E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0F02B4F247AF3B000952C2E /* Preview Assets.xcassets */; };
 		D0F02B53247AF3B000952C2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D0F02B51247AF3B000952C2E /* LaunchScreen.storyboard */; };
+		D0F02B5B247B984400952C2E /* SegundoDisenio.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F02B5A247B984400952C2E /* SegundoDisenio.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D0F02B4F247AF3B000952C2E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D0F02B52247AF3B000952C2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D0F02B54247AF3B000952C2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0F02B5A247B984400952C2E /* SegundoDisenio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegundoDisenio.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				D0F02B51247AF3B000952C2E /* LaunchScreen.storyboard */,
 				D0F02B54247AF3B000952C2E /* Info.plist */,
 				D0F02B4E247AF3B000952C2E /* Preview Content */,
+				D0F02B5A247B984400952C2E /* SegundoDisenio.swift */,
 			);
 			path = DemoSwiftUI;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0F02B47247AF3AD00952C2E /* AppDelegate.swift in Sources */,
+				D0F02B5B247B984400952C2E /* SegundoDisenio.swift in Sources */,
 				D0F02B49247AF3AD00952C2E /* SceneDelegate.swift in Sources */,
 				D0F02B4B247AF3AD00952C2E /* ContentView.swift in Sources */,
 			);
