@@ -191,7 +191,7 @@ func validarCorreo(txtfield: FormData){
         txtfield.codigoError = 1
         return
     }
-    if(txtfield.nameUser.contains("@")){
+    if(!txtfield.nameUser.contains("@")){
         txtfield.validation = false
         txtfield.codigoError = 2
         return
