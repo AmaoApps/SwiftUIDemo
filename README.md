@@ -1,4 +1,6 @@
 # Curso SwiftUI
+Datos: Oscar Ulises Amao Quijandria
+
 ## Actividades realizadas
 
 ### Actividad Nº 1
