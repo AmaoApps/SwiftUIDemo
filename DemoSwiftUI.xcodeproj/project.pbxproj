@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D08C032D248471AC00E5736E /* FormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08C032C248471AC00E5736E /* FormData.swift */; };
+		D0B17B6A248406A300DEE8C2 /* FormularioTarea.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B17B69248406A300DEE8C2 /* FormularioTarea.swift */; };
 		D0F02B47247AF3AD00952C2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F02B46247AF3AD00952C2E /* AppDelegate.swift */; };
 		D0F02B49247AF3AD00952C2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F02B48247AF3AD00952C2E /* SceneDelegate.swift */; };
 		D0F02B4B247AF3AD00952C2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F02B4A247AF3AD00952C2E /* ContentView.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D08C032C248471AC00E5736E /* FormData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormData.swift; sourceTree = "<group>"; };
+		D0B17B69248406A300DEE8C2 /* FormularioTarea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormularioTarea.swift; sourceTree = "<group>"; };
 		D0F02B43247AF3AD00952C2E /* DemoSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F02B46247AF3AD00952C2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0F02B48247AF3AD00952C2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D08C032B24846CD700E5736E /* model */ = {
+			isa = PBXGroup;
+			children = (
+				D08C032C248471AC00E5736E /* FormData.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
 		D0F02B3A247AF3AD00952C2E = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +70,7 @@
 		D0F02B45247AF3AD00952C2E /* DemoSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				D08C032B24846CD700E5736E /* model */,
 				D0F02B46247AF3AD00952C2E /* AppDelegate.swift */,
 				D0F02B48247AF3AD00952C2E /* SceneDelegate.swift */,
 				D0F02B4A247AF3AD00952C2E /* ContentView.swift */,
@@ -66,6 +79,7 @@
 				D0F02B54247AF3B000952C2E /* Info.plist */,
 				D0F02B4E247AF3B000952C2E /* Preview Content */,
 				D0F02B5A247B984400952C2E /* SegundoDisenio.swift */,
+				D0B17B69248406A300DEE8C2 /* FormularioTarea.swift */,
 			);
 			path = DemoSwiftUI;
 			sourceTree = "<group>";
@@ -153,6 +167,8 @@
 				D0F02B5B247B984400952C2E /* SegundoDisenio.swift in Sources */,
 				D0F02B49247AF3AD00952C2E /* SceneDelegate.swift in Sources */,
 				D0F02B4B247AF3AD00952C2E /* ContentView.swift in Sources */,
+				D0B17B6A248406A300DEE8C2 /* FormularioTarea.swift in Sources */,
+				D08C032D248471AC00E5736E /* FormData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
