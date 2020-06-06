@@ -7,12 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D07FC09C248BE56900D97BDD /* FormularioContacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07FC09B248BE56900D97BDD /* FormularioContacto.swift */; };
+		D07FC09E248BFF9400D97BDD /* ImagePickerContact.swift in Sources */ = {isa = PBXBuildFile; fileRef = D07FC09D248BFF9400D97BDD /* ImagePickerContact.swift */; };
+		D07FC0A4248C182B00D97BDD /* db.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D07FC0A2248C182B00D97BDD /* db.xcdatamodeld */; };
 		D08C032D248471AC00E5736E /* FormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08C032C248471AC00E5736E /* FormData.swift */; };
 		D0B17B6A248406A300DEE8C2 /* FormularioTarea.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B17B69248406A300DEE8C2 /* FormularioTarea.swift */; };
 		D0C831AC2489FC240002800C /* Contacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C831AB2489FC240002800C /* Contacto.swift */; };
 		D0C831AE2489FCDD0002800C /* AgendaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C831AD2489FCDD0002800C /* AgendaView.swift */; };
 		D0C831B0248AE6CE0002800C /* AgendaContacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C831AF248AE6CE0002800C /* AgendaContacto.swift */; };
 		D0C831B2248B119D0002800C /* DetalleContacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C831B1248B119D0002800C /* DetalleContacto.swift */; };
+		D0C831B5248B1CC30002800C /* MapsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C831B4248B1CC30002800C /* MapsView.swift */; };
+		D0C831B7248B1CEA0002800C /* MyLocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C831B6248B1CEA0002800C /* MyLocationView.swift */; };
+		D0C831B9248B1E070002800C /* NewMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C831B8248B1E070002800C /* NewMapView.swift */; };
+		D0C831BB248B25FE0002800C /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C831BA248B25FE0002800C /* ImagePickerView.swift */; };
+		D0C831BD248B27860002800C /* SelectImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C831BC248B27860002800C /* SelectImage.swift */; };
 		D0F02B47247AF3AD00952C2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F02B46247AF3AD00952C2E /* AppDelegate.swift */; };
 		D0F02B49247AF3AD00952C2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F02B48247AF3AD00952C2E /* SceneDelegate.swift */; };
 		D0F02B4B247AF3AD00952C2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F02B4A247AF3AD00952C2E /* ContentView.swift */; };
@@ -23,12 +31,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D07FC09B248BE56900D97BDD /* FormularioContacto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormularioContacto.swift; sourceTree = "<group>"; };
+		D07FC09D248BFF9400D97BDD /* ImagePickerContact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerContact.swift; sourceTree = "<group>"; };
+		D07FC0A3248C182B00D97BDD /* db.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = db.xcdatamodel; sourceTree = "<group>"; };
 		D08C032C248471AC00E5736E /* FormData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormData.swift; sourceTree = "<group>"; };
 		D0B17B69248406A300DEE8C2 /* FormularioTarea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormularioTarea.swift; sourceTree = "<group>"; };
 		D0C831AB2489FC240002800C /* Contacto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacto.swift; sourceTree = "<group>"; };
 		D0C831AD2489FCDD0002800C /* AgendaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaView.swift; sourceTree = "<group>"; };
 		D0C831AF248AE6CE0002800C /* AgendaContacto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaContacto.swift; sourceTree = "<group>"; };
 		D0C831B1248B119D0002800C /* DetalleContacto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleContacto.swift; sourceTree = "<group>"; };
+		D0C831B4248B1CC30002800C /* MapsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsView.swift; sourceTree = "<group>"; };
+		D0C831B6248B1CEA0002800C /* MyLocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLocationView.swift; sourceTree = "<group>"; };
+		D0C831B8248B1E070002800C /* NewMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewMapView.swift; sourceTree = "<group>"; };
+		D0C831BA248B25FE0002800C /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		D0C831BC248B27860002800C /* SelectImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectImage.swift; sourceTree = "<group>"; };
 		D0F02B43247AF3AD00952C2E /* DemoSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F02B46247AF3AD00952C2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0F02B48247AF3AD00952C2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +67,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D07FC09A248BE51900D97BDD /* Tarea4 */ = {
+			isa = PBXGroup;
+			children = (
+				D0C831AD2489FCDD0002800C /* AgendaView.swift */,
+				D0C831B1248B119D0002800C /* DetalleContacto.swift */,
+				D07FC09B248BE56900D97BDD /* FormularioContacto.swift */,
+				D07FC09D248BFF9400D97BDD /* ImagePickerContact.swift */,
+			);
+			path = Tarea4;
+			sourceTree = "<group>";
+		};
 		D08C032B24846CD700E5736E /* model */ = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +86,18 @@
 				D0C831AF248AE6CE0002800C /* AgendaContacto.swift */,
 			);
 			path = model;
+			sourceTree = "<group>";
+		};
+		D0C831B3248B1CA90002800C /* class4 */ = {
+			isa = PBXGroup;
+			children = (
+				D0C831B6248B1CEA0002800C /* MyLocationView.swift */,
+				D0C831B4248B1CC30002800C /* MapsView.swift */,
+				D0C831B8248B1E070002800C /* NewMapView.swift */,
+				D0C831BA248B25FE0002800C /* ImagePickerView.swift */,
+				D0C831BC248B27860002800C /* SelectImage.swift */,
+			);
+			path = class4;
 			sourceTree = "<group>";
 		};
 		D0F02B3A247AF3AD00952C2E = {
@@ -80,6 +119,8 @@
 		D0F02B45247AF3AD00952C2E /* DemoSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				D07FC09A248BE51900D97BDD /* Tarea4 */,
+				D0C831B3248B1CA90002800C /* class4 */,
 				D08C032B24846CD700E5736E /* model */,
 				D0F02B46247AF3AD00952C2E /* AppDelegate.swift */,
 				D0F02B48247AF3AD00952C2E /* SceneDelegate.swift */,
@@ -90,8 +131,7 @@
 				D0F02B4E247AF3B000952C2E /* Preview Content */,
 				D0F02B5A247B984400952C2E /* SegundoDisenio.swift */,
 				D0B17B69248406A300DEE8C2 /* FormularioTarea.swift */,
-				D0C831AD2489FCDD0002800C /* AgendaView.swift */,
-				D0C831B1248B119D0002800C /* DetalleContacto.swift */,
+				D07FC0A2248C182B00D97BDD /* db.xcdatamodeld */,
 			);
 			path = DemoSwiftUI;
 			sourceTree = "<group>";
@@ -177,14 +217,22 @@
 			files = (
 				D0F02B47247AF3AD00952C2E /* AppDelegate.swift in Sources */,
 				D0F02B5B247B984400952C2E /* SegundoDisenio.swift in Sources */,
+				D0C831B9248B1E070002800C /* NewMapView.swift in Sources */,
 				D0C831B2248B119D0002800C /* DetalleContacto.swift in Sources */,
+				D07FC09E248BFF9400D97BDD /* ImagePickerContact.swift in Sources */,
+				D0C831BB248B25FE0002800C /* ImagePickerView.swift in Sources */,
+				D0C831B5248B1CC30002800C /* MapsView.swift in Sources */,
 				D0F02B49247AF3AD00952C2E /* SceneDelegate.swift in Sources */,
+				D0C831B7248B1CEA0002800C /* MyLocationView.swift in Sources */,
 				D0C831B0248AE6CE0002800C /* AgendaContacto.swift in Sources */,
 				D0F02B4B247AF3AD00952C2E /* ContentView.swift in Sources */,
+				D0C831BD248B27860002800C /* SelectImage.swift in Sources */,
 				D0B17B6A248406A300DEE8C2 /* FormularioTarea.swift in Sources */,
 				D0C831AC2489FC240002800C /* Contacto.swift in Sources */,
 				D0C831AE2489FCDD0002800C /* AgendaView.swift in Sources */,
+				D07FC09C248BE56900D97BDD /* FormularioContacto.swift in Sources */,
 				D08C032D248471AC00E5736E /* FormData.swift in Sources */,
+				D07FC0A4248C182B00D97BDD /* db.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +426,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D07FC0A2248C182B00D97BDD /* db.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D07FC0A3248C182B00D97BDD /* db.xcdatamodel */,
+			);
+			currentVersion = D07FC0A3248C182B00D97BDD /* db.xcdatamodel */;
+			path = db.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = D0F02B3B247AF3AD00952C2E /* Project object */;
 }

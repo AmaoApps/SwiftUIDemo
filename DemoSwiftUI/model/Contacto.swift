@@ -12,17 +12,20 @@ class Contacto : ObservableObject, Identifiable{
 
   @Published var id = UUID()
   @Published var nombreContacto : String = ""
+  @Published var apellidoContacto : String = ""
   @Published var telefono : String = ""
   @Published var genero: String = ""
   @Published var lugarTrabajo: String = ""
   @Published var profesion: String = ""
     
     init(nombreContacto: String,
+         apellidoContacto: String,
          telefono: String,
          genero: String,
          lugarTrabajo: String,
          profesion: String) {
         self.nombreContacto = nombreContacto
+        self.apellidoContacto = apellidoContacto
         self.telefono = telefono
         self.genero = genero
         self.lugarTrabajo = lugarTrabajo
@@ -30,7 +33,7 @@ class Contacto : ObservableObject, Identifiable{
        }
     
     func getInicial() -> String{
-        let input = self.nombreContacto
+        let input = self.apellidoContacto
         return String(input[input.index(input.startIndex, offsetBy: 0)])
     }
 

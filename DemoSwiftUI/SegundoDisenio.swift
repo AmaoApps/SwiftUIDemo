@@ -52,7 +52,7 @@ struct containerDetalles: View {
     var detalle: String
     var body : some View {
         VStack {
-            RowDetalle(iconoNombre: "icon_profile", detalle: nombres)
+             RowDetalle(iconoNombre: "icon_profile", detalle: nombres)
              RowDetalle(iconoNombre: "icon_calendar", detalle: fecha)
              RowDetalle(iconoNombre: "icon_message", detalle: detalle)
         }
