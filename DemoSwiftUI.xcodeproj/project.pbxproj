@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		D08C032D248471AC00E5736E /* FormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D08C032C248471AC00E5736E /* FormData.swift */; };
 		D0B17B6A248406A300DEE8C2 /* FormularioTarea.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0B17B69248406A300DEE8C2 /* FormularioTarea.swift */; };
+		D0C831AC2489FC240002800C /* Contacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C831AB2489FC240002800C /* Contacto.swift */; };
+		D0C831AE2489FCDD0002800C /* AgendaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C831AD2489FCDD0002800C /* AgendaView.swift */; };
+		D0C831B0248AE6CE0002800C /* AgendaContacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C831AF248AE6CE0002800C /* AgendaContacto.swift */; };
+		D0C831B2248B119D0002800C /* DetalleContacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0C831B1248B119D0002800C /* DetalleContacto.swift */; };
 		D0F02B47247AF3AD00952C2E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F02B46247AF3AD00952C2E /* AppDelegate.swift */; };
 		D0F02B49247AF3AD00952C2E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F02B48247AF3AD00952C2E /* SceneDelegate.swift */; };
 		D0F02B4B247AF3AD00952C2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F02B4A247AF3AD00952C2E /* ContentView.swift */; };
@@ -21,6 +25,10 @@
 /* Begin PBXFileReference section */
 		D08C032C248471AC00E5736E /* FormData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormData.swift; sourceTree = "<group>"; };
 		D0B17B69248406A300DEE8C2 /* FormularioTarea.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormularioTarea.swift; sourceTree = "<group>"; };
+		D0C831AB2489FC240002800C /* Contacto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacto.swift; sourceTree = "<group>"; };
+		D0C831AD2489FCDD0002800C /* AgendaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaView.swift; sourceTree = "<group>"; };
+		D0C831AF248AE6CE0002800C /* AgendaContacto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgendaContacto.swift; sourceTree = "<group>"; };
+		D0C831B1248B119D0002800C /* DetalleContacto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleContacto.swift; sourceTree = "<group>"; };
 		D0F02B43247AF3AD00952C2E /* DemoSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0F02B46247AF3AD00952C2E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D0F02B48247AF3AD00952C2E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -47,6 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				D08C032C248471AC00E5736E /* FormData.swift */,
+				D0C831AB2489FC240002800C /* Contacto.swift */,
+				D0C831AF248AE6CE0002800C /* AgendaContacto.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -80,6 +90,8 @@
 				D0F02B4E247AF3B000952C2E /* Preview Content */,
 				D0F02B5A247B984400952C2E /* SegundoDisenio.swift */,
 				D0B17B69248406A300DEE8C2 /* FormularioTarea.swift */,
+				D0C831AD2489FCDD0002800C /* AgendaView.swift */,
+				D0C831B1248B119D0002800C /* DetalleContacto.swift */,
 			);
 			path = DemoSwiftUI;
 			sourceTree = "<group>";
@@ -165,9 +177,13 @@
 			files = (
 				D0F02B47247AF3AD00952C2E /* AppDelegate.swift in Sources */,
 				D0F02B5B247B984400952C2E /* SegundoDisenio.swift in Sources */,
+				D0C831B2248B119D0002800C /* DetalleContacto.swift in Sources */,
 				D0F02B49247AF3AD00952C2E /* SceneDelegate.swift in Sources */,
+				D0C831B0248AE6CE0002800C /* AgendaContacto.swift in Sources */,
 				D0F02B4B247AF3AD00952C2E /* ContentView.swift in Sources */,
 				D0B17B6A248406A300DEE8C2 /* FormularioTarea.swift in Sources */,
+				D0C831AC2489FC240002800C /* Contacto.swift in Sources */,
+				D0C831AE2489FCDD0002800C /* AgendaView.swift in Sources */,
 				D08C032D248471AC00E5736E /* FormData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
