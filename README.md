@@ -12,7 +12,16 @@ Datos: Oscar Ulises Amao Quijandria
 <img src="https://github.com/rakso-x/SwiftUIDemo/blob/master/screenshots/actividad1-2.png" height="420" width="200">
 
 ### Actividad Nº 2
-1. Se ceó un formulario simple en donde se valida sus campos. Se resalto en caso tuviera un error y se indica que tipo de error puede llegar a tener.
+1. Se creó un formulario simple en donde se valida sus campos. Se resalto en caso tuviera un error y se indica que tipo de error puede llegar a tener.
 
 #### Screenshots
 <img src="https://github.com/rakso-x/SwiftUIDemo/blob/master/screenshots/actividad2-1.png" height="420" width="200">
+
+
+### Actividad Nº 3
+1. Se creó una agenda con lista de contactos desordenados, luego dentro se ordena y se crea las iniciales, dandoles a cada nombre la naveación.
+
+#### Screenshots
+<img src="https://github.com/rakso-x/SwiftUIDemo/blob/master/screenshots/actividad3-1.png" height="420" width="200">
+<img src="https://github.com/rakso-x/SwiftUIDemo/blob/master/screenshots/actividad3-2.png" height="420" width="200">
+
