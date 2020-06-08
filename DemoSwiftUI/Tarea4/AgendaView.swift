@@ -10,7 +10,14 @@ import SwiftUI
 import CoreData
 
 struct AgendaView: View {
+    
+    @Environment(\.managedObjectContext) var managedObjectContext
     @FetchRequest(entity: ContactoEntity.entity(), sortDescriptors: []) var contactosData: FetchedResults<ContactoEntity>
+    
+    @State var NewContacto:ContactoEntity?
+    @State var FlagRegistro:Bool?
+    @State var showForm = false
+    
     
     @State var listaContactos: [Contacto] = [Contacto.init(nombreContacto: "Alejandro",apellidoContacto: "Alvarez", telefono: "998899778", genero: "Masculino", lugarTrabajo: "Oficina", profesion: "Developer"),
     Contacto.init(nombreContacto: "Julian",apellidoContacto: "Salazar",  telefono: "998746352", genero: "Masculino", lugarTrabajo: "Oficina", profesion: "-"),
@@ -31,6 +38,7 @@ struct AgendaView: View {
     
     var body: some View {
         var listaAgenda : [AgendaContacto] = obtenerVistaAgenda(contactos: listaContactos)
+        //var listaAgenda: [AgendaContacto] = obtenerVistaAgendaEntity(contactos: contactosData)
        return NavigationView {
             VStack{
                 List{
@@ -56,15 +64,31 @@ struct AgendaView: View {
                     }
                 }
             }
-            .navigationBarTitle("Agenda Principal")
+            .navigationBarTitle("Agenda Principal", displayMode: .inline)
             .navigationBarItems(trailing:
-                NavigationLink(destination: FormularioContacto()){
-                    Text("Agregar")
+                Button(action: {
+                    self.showForm.toggle()
+                }){
+                    Text("Registrar")
+                }.sheet(isPresented: $showForm, onDismiss: {
+                    self.registrarContacto()
+                }) {
+                    FormularioContacto(contactoToRegister: self.$NewContacto, flagToRegister: self.$FlagRegistro)
                 }
+                /*
+                NavigationLink(destination:
+                FormularioContacto(contactoToRegister: $NewContacto, flagToRegister: $FlagRegistro)){
+                    Text("Agregar")
+                }*/
             )
-            
         }
          
+    }
+    
+    func registrarContacto() -> Void {
+        //let contactoToDB = ContactoEntity(context: managedObjectContext)
+        self.contactosData.count
+        print("Volviendo de registrar")
     }
     
 }
@@ -96,10 +120,43 @@ func obtenerVistaAgenda(contactos: [Contacto]) -> [AgendaContacto]{
     return agendaContactos
 }
 
+/*
+func obtenerVistaAgendaEntity(contactos: [ContactoEntity]) -> [AgendaContacto]{
+
+    var inicial = ""
+    
+    //ordenar alfabeticamente los nombres
+    let contactosOrdenados = ordenarAlfabeticamenteEntity(listaContactos: contactos)
+    
+    var agendaContactos:[AgendaContacto] = []
+    var agendaContacto = AgendaContacto()
+    for contacto in contactosOrdenados {
+        let inputInicial:String = contacto.apellidos!
+        let inicialContactoEntity =  String(inputInicial[inputInicial.index(inputInicial.startIndex, offsetBy: 0)])
+        agendaContacto = AgendaContacto()
+        if(inicialContactoEntity>inicial){
+            inicial = inicialContactoEntity
+            agendaContacto.inicial = inicial
+            agendaContactos.append(agendaContacto)
+            
+            agendaContacto = AgendaContacto()
+            agendaContacto.contactoEntities = contacto
+        }else{
+            agendaContacto.contactoEntities = contacto
+            
+        }
+        agendaContactos.append(agendaContacto)
+    }
+    return agendaContactos
+}*/
+
 func ordenarAlfabeticamente(listaContactos: [Contacto])-> [Contacto]{
     return listaContactos.sorted{ $0.apellidoContacto < $1.apellidoContacto }
 }
 
+/*func ordenarAlfabeticamenteEntity(listaContactos: [ContactoEntity])-> [ContactoEntity]{
+    return listaContactos.sorted{ $0.apellidos < $1.apellidos }
+}*/
 
 
 struct AgendaView_Previews: PreviewProvider {

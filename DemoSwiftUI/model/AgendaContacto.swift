@@ -11,9 +11,10 @@ import Foundation
 
 class AgendaContacto :ObservableObject,  Identifiable{
 
-     @Published var id = UUID()
+   @Published var id = UUID()
    @Published var inicial : String = ""
    @Published var contacto : Contacto?
+   @Published var contactoEntities : ContactoEntity?
     
     /*
     init(inicial: String,
