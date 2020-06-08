@@ -25,3 +25,15 @@ Datos: Oscar Ulises Amao Quijandria
 <img src="https://github.com/rakso-x/SwiftUIDemo/blob/master/screenshots/actividad3-1.png" height="420" width="200">
 <img src="https://github.com/rakso-x/SwiftUIDemo/blob/master/screenshots/actividad3-2.png" height="420" width="200">
 
+### Actividad Nº 4
+1. Se creó una agenda con lista de contactos desordenados, luego dentro se ordena y se crea las iniciales, dandoles a cada nombre la naveación.
+2- Se agrego el detalle de cada contacto
+3- Se agrego la pantalla de registro.
+4- Se agrego el PickerView para cambiar de imagen
+
+#### Screenshots
+<img src="https://github.com/rakso-x/SwiftUIDemo/blob/master/screenshots/actividad4-1.png" height="420" width="200">
+<img src="https://github.com/rakso-x/SwiftUIDemo/blob/master/screenshots/actividad4-2.png" height="420" width="200">
+<img src="https://github.com/rakso-x/SwiftUIDemo/blob/master/screenshots/actividad4-3.png" height="420" width="200">
+<img src="https://github.com/rakso-x/SwiftUIDemo/blob/master/screenshots/actividad4-4.png" height="420" width="200">
+
